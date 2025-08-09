@@ -1,3 +1,4 @@
+# Bu dosya projede kullanılan Python paketlerini listeler
 pydrive
 watchdog
 pystray
