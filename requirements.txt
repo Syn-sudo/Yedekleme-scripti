@@ -1,4 +1,4 @@
-# Bu dosya projede kullanılan Python paketlerini listeler
+# Bu dosya, projede kullanılan Python paketlerini listeler ve bu paketlerin kurulmasını sağlar.
 pydrive
 watchdog
 pystray
