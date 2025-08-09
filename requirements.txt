@@ -1,0 +1,5 @@
+pydrive
+watchdog
+pystray
+pillow
+pyinstaller
