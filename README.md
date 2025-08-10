@@ -1,5 +1,5 @@
 # Yedekleme-scripti
-## Bu proje, belirlediğiniz bir klasörü otomatik olarak izler, içine eklenen dosya veya klasörleri zipleyerek Google Drive hesabınıza yükler ve ardından yerel dosyaları siler. Arka planda çalışan, kullanımı kolay bir yedekleme çözümüdür.
+## Bu proje, belirlediğiniz bir klasörü otomatik olarak izler, içine eklenen dosya veya klasörleri zipleyerek Google Drive hesabınıza yükler.Arka planda çalışan, kullanımı kolay bir yedekleme çözümüdür.
 
 ---
 
