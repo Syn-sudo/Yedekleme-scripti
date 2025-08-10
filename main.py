@@ -12,7 +12,6 @@ import pystray
 from PIL import Image
 
 # -------- Ayarlar --------
-# -------- Ayarlar --------
 # Bu klasörü izler; içine atılan dosya ve klasörleri yedekler
 WATCH_FOLDER = r"\Yedekler"
 
@@ -23,7 +22,7 @@ CREDENTIALS_FILE = "credentials.json"
 ICON_PATH = r"\logo.ico"
 
 # Sistem tepsisinde gösterilecek isim
-TRAY_NAME = "Google Drive Yedekleme"
+TRAY_NAME = "Yedekleme"
 
 # Aynı dosya/klasör için çoklu tetiklemeyi önlemek amacıyla bekleme süresi (saniye)
 DEBOUNCE_SECONDS = 3
@@ -282,13 +281,13 @@ def main():
     print("[BİLGİ] İkon yüklendi.")
 
     icon = pystray.Icon(
-        "Yedekleme",
-        icon_image,
-        "Google Drive Yedekleme",
-        menu=pystray.Menu(
-            pystray.MenuItem("Çıkış", on_quit)
-        )
+    TRAY_NAME,
+    icon_image,
+    TRAY_NAME,
+    menu=pystray.Menu(
+        pystray.MenuItem("Çıkış", on_quit)
     )
+)
 
     watcher_thread = threading.Thread(target=run_watcher, daemon=True)
     watcher_thread.start()
@@ -299,3 +298,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
